@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Axionet Chat</title>
+</head>
+<body>
+  <h2>Axionet Full Duplex Chat</h2>
+  <input id="input" placeholder="Type here" />
+  <button onclick="sendMessage()">Send</button>
+  <pre id="log"></pre>
+
+  <script>
+    const ws = new WebSocket("ws://localhost:9090");
+    const log = document.getElementById("log");
+
+    ws.onopen = () => log.innerText += "🔌 Connected to Axionet\n";
+    ws.onmessage = (event) => log.innerText += "🤖 " + event.data + "\n";
+
+    function sendMessage() {
+      const msg = document.getElementById("input").value;
+      ws.send(JSON.stringify({ role: "user", msg }));
+      log.innerText += "🧑 " + msg + "\n";
+    }
+  </script>
+</body>
+</html>
