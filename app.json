@@ -3,21 +3,37 @@
     "name": "Axionet",
     "slug": "axionet",
     "version": "1.0.0",
-    "sdkVersion": "50.0.0",
-    "platforms": ["android"],
-    "android": {
-      "package": "com.dman6969.axionet",
-      "versionCode": 1
-    },
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
       "backgroundColor": "#000000"
     },
+    "assetBundlePatterns": ["**/*"],
+    "platforms": ["android"],
+    "android": {
+      "package": "com.dman6969.axionet",
+      "versionCode": 1,
+      "compileSdkVersion": 34,
+      "permissions": [],
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#000000"
+      }
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
     "extra": {
       "eas": {
         "projectId": "e60340c9-58a4-4c15-ae31-1060cb3bc53c"
       }
-    }
+    },
+    "sdkVersion": "50.0.0"
   }
 }
