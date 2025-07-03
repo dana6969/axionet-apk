@@ -11,23 +11,23 @@ export default function LoginScreen() {
       const isEnrolled = await LocalAuthentication.isEnrolledAsync();
 
       if (!hasHardware || !isEnrolled) {
-        Alert.alert('Biometric not available', 'Fallback: Use manual login.');
+        Alert.alert('⚠️ Biometric not available', 'Fallback: Use manual login.');
         return;
       }
 
       const result = await LocalAuthentication.authenticateAsync({
         promptMessage: 'Login with biometrics',
-        fallbackLabel: 'Use passcode',
-        disableDeviceFallback: false,
+        cancelLabel: 'Cancel',
+        disableDeviceFallback: true,
       });
 
       if (result.success) {
         setAuthenticated(true);
       } else {
-        Alert.alert('Failed', 'Authentication failed. Try again.');
+        Alert.alert('❌ Failed', 'Authentication failed. Try again.');
       }
     } catch (error) {
-      Alert.alert('Error', 'Something went wrong with biometrics.');
+      Alert.alert('❗ Error', 'Something went wrong with biometrics.');
     }
   };
 
@@ -38,9 +38,12 @@ export default function LoginScreen() {
   return (
     <View style={styles.container}>
       {authenticated ? (
-        <Text style={styles.text}>✅ Welcome to Axionet</Text>
+        <Text style={styles.success}>✅ Authentication Successful</Text>
       ) : (
-        <Text style={styles.text}>🔒 Authenticating...</Text>
+        <>
+          <Text style={styles.title}>Welcome to Axionet</Text>
+          <Button title="Retry Biometric Login" onPress={handleBiometricLogin} />
+        </>
       )}
     </View>
   );
@@ -49,12 +52,18 @@ export default function LoginScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
+    backgroundColor: '#000',
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: '#000',
+    padding: 20,
   },
-  text: {
-    color: '#0ff',
-    fontSize: 18,
+  title: {
+    color: '#00FF88',
+    fontSize: 24,
+    marginBottom: 30,
+  },
+  success: {
+    color: '#00FF88',
+    fontSize: 20,
   },
 });
