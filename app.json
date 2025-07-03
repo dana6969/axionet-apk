@@ -1,0 +1,21 @@
+{
+  "expo": {
+    "name": "Axionet",
+    "slug": "axionet",
+    "version": "1.0.0",
+    "android": {
+      "package": "com.dman6969.axionet",
+      "versionCode": 1
+    },
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#000000"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "e60340c9-58a4-4c15-ae31-1060cb3bc53c"
+      }
+    }
+  }
+}
