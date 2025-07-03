@@ -1,6 +1,1 @@
-import React from 'react';
-import LoginScreen from './src/screens/LoginScreen';
-
-export default function App() {
-  return <LoginScreen />;
-}
+import { registerRootComponent } from "expo"; import { Text, View } from "react-native"; const App = () => <View style={{flex:1,justifyContent:"center",alignItems:"center",backgroundColor:"black"}}><Text style={{color:"white"}}>Axionet Running</Text></View>; registerRootComponent(App);
