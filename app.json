@@ -11,36 +11,46 @@
       "resizeMode": "contain",
       "backgroundColor": "#000000"
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
-    "platforms": [
-      "android"
-    ],
+    "assetBundlePatterns": ["**/*"],
+    "platforms": ["android"],
     "android": {
       "package": "com.dman6969.axionet",
       "versionCode": 1,
       "compileSdkVersion": 34,
-      "permissions": [],
+      "permissions": [
+        "ACCESS_FINE_LOCATION",
+        "ACCESS_COARSE_LOCATION",
+        "BLUETOOTH",
+        "BLUETOOTH_ADMIN",
+        "BLUETOOTH_CONNECT",
+        "BLUETOOTH_SCAN",
+        "INTERNET",
+        "USE_BIOMETRIC"
+      ],
       "adaptiveIcon": {
         "foregroundImage": "./assets/icon.png",
         "backgroundColor": "#000000"
       }
     },
-    "updates": {
-      "fallbackToCacheTimeout": 0
-    },
-    "runtimeVersion": {
-      "policy": "sdkVersion"
+    "ios": {
+      "bundleIdentifier": "com.dman6969.axionet",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSBluetoothAlwaysUsageDescription": "This app uses Bluetooth to connect to nearby devices.",
+        "NSFaceIDUsageDescription": "This app uses Face ID to secure your data."
+      }
     },
     "extra": {
       "eas": {
         "projectId": "e60340c9-58a4-4c15-ae31-1060cb3bc53c"
       }
     },
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
     "sdkVersion": "50.0.0",
-    "ios": {
-      "bundleIdentifier": "com.dman6969.axionet"
+    "updates": {
+      "fallbackToCacheTimeout": 0
     }
   }
 }
