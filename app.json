@@ -12,7 +12,7 @@
       "backgroundColor": "#000000"
     },
     "assetBundlePatterns": ["**/*"],
-    "platforms": ["android"],
+    "plugins": ["expo-local-authentication"],
     "android": {
       "package": "com.dman6969.axionet",
       "versionCode": 1,
@@ -24,8 +24,9 @@
         "BLUETOOTH_ADMIN",
         "BLUETOOTH_CONNECT",
         "BLUETOOTH_SCAN",
-        "INTERNET",
-        "USE_BIOMETRIC"
+        "USE_BIOMETRIC",
+        "USE_FINGERPRINT",
+        "INTERNET"
       ],
       "adaptiveIcon": {
         "foregroundImage": "./assets/icon.png",
@@ -36,8 +37,8 @@
       "bundleIdentifier": "com.dman6969.axionet",
       "supportsTablet": true,
       "infoPlist": {
-        "NSBluetoothAlwaysUsageDescription": "This app uses Bluetooth to connect to nearby devices.",
-        "NSFaceIDUsageDescription": "This app uses Face ID to secure your data."
+        "NSBluetoothAlwaysUsageDescription": "This app uses Bluetooth to connect with nearby mesh devices.",
+        "NSFaceIDUsageDescription": "Axionet uses Face ID or fingerprint for secure access."
       }
     },
     "extra": {
@@ -51,6 +52,7 @@
     "sdkVersion": "50.0.0",
     "updates": {
       "fallbackToCacheTimeout": 0
-    }
+    },
+    "platforms": ["android"]
   }
 }
