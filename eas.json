@@ -1,16 +1,10 @@
 {
-  "cli": {
-    "version": ">= 3.13.0",
-    "appVersionSource": "remote"
-  },
   "build": {
     "production": {
       "developmentClient": false,
       "distribution": "internal",
-      "android": {
-        "buildType": "apk"
-      },
-      "concurrency": 1
+      "version": "3.13.0",
+      "appVersionSource": "remote"
     }
   }
 }
