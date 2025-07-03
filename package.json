@@ -25,5 +25,12 @@
   },
   "devDependencies": {
     "babel-plugin-module-resolver": "^5.0.2"
+  },
+  "expo": {
+    "doctor": {
+      "reactNativeDirectoryCheck": {
+        "listUnknownPackages": false
+      }
+    }
   }
 }
