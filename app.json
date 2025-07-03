@@ -11,8 +11,12 @@
       "resizeMode": "contain",
       "backgroundColor": "#000000"
     },
-    "assetBundlePatterns": ["**/*"],
-    "platforms": ["android"],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "platforms": [
+      "android"
+    ],
     "android": {
       "package": "com.dman6969.axionet",
       "versionCode": 1,
@@ -34,6 +38,9 @@
         "projectId": "e60340c9-58a4-4c15-ae31-1060cb3bc53c"
       }
     },
-    "sdkVersion": "50.0.0"
+    "sdkVersion": "50.0.0",
+    "ios": {
+      "bundleIdentifier": "com.dman6969.axionet"
+    }
   }
 }
