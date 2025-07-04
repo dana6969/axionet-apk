@@ -13,12 +13,6 @@ Autonomous AGI-ready AI mesh assistant with offline learning, BLE/LoRa relay, bi
 - 🎮 Creator tools (modding/game dev plugins)
 - 🧰 Modular multi-mode assistant (Creator, Moderator, Personal Assistant)
 
----
-
-## 🚀 Getting Started
-1. Clone this repo  
-2. Install using `adb install axionet.apk` or sideload manually  
-3. Optional: Connect LoRa/BLE mesh hardware (coming soon)
 
 ---
 
