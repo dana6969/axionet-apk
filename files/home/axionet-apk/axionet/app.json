@@ -1,0 +1,1 @@
+{"expo":{"name":"Axionet","slug":"axionet","version":"1.0.0","sdkVersion":"50.0.0","platforms":["android"],"orientation":"portrait","icon":"./assets/icon.png","splash":{"image":"./assets/splash.png","resizeMode":"contain","backgroundColor":"#000000"},"android":{"package":"com.danaashey.axionet"},"updates":{"fallbackToCacheTimeout":0},"assetBundlePatterns":["**/*"]}}
