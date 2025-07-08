@@ -1,27 +1,30 @@
 {
   "dependencies": {
-    "expo": "^53.0.16",
+    "@expo/config-plugins": "10.1.2",
+    "@expo/metro-config": "0.20.17",
+    "@expo/prebuild-config": "9.0.11",
+    "expo": "^53.0.19",
     "expo-av": "~15.1.7",
     "expo-media-library": "~17.1.7",
     "express": "^5.1.0",
     "glob": "^11.0.3",
     "home": "^2.0.0",
-    "react": "^19.1.0",
-    "react-dom": "^19.1.0",
-    "react-native": "^0.80.1",
+    "metro": "0.82.0",
+    "metro-config": "0.82.0",
+    "metro-resolver": "0.82.0",
+    "react": "19.0.0",
+    "react-dom": "19.0.0",
+    "react-native": "0.79.5",
     "react-native-web": "^0.20.0",
     "rimraf": "^6.0.1",
     "uuid": "^11.1.0",
     "ws": "^8.18.3"
   },
-  "name": "home",
+  "name": "axionet",
   "version": "1.0.0",
   "scripts": {
     "android": "expo run:android",
     "ios": "expo run:ios"
-  },
-  "engines": {
-    "node": ">=18 <=18.18.0"
   },
   "resolutions": {
     "glob": "7.2.3",
