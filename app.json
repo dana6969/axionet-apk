@@ -1,0 +1,14 @@
+{
+  "expo": {
+    "name": "Axionet",
+    "slug": "axionet",
+    "owner": "dman6969",
+    "version": "1.0.0",
+    "sdkVersion": "49.0.0",
+    "extra": {
+      "eas": {
+        "projectId": "e60340c9-58a4-4c15-ae31-1060cb3bc53c"
+      }
+    }
+  }
+}
