@@ -1,0 +1,32 @@
+{
+  "dependencies": {
+    "expo": "^53.0.16",
+    "expo-av": "~15.1.7",
+    "expo-media-library": "~17.1.7",
+    "express": "^5.1.0",
+    "glob": "^11.0.3",
+    "home": "^2.0.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-native": "^0.80.1",
+    "react-native-web": "^0.20.0",
+    "rimraf": "^6.0.1",
+    "uuid": "^11.1.0",
+    "ws": "^8.18.3"
+  },
+  "name": "home",
+  "version": "1.0.0",
+  "scripts": {
+    "android": "expo run:android",
+    "ios": "expo run:ios"
+  },
+  "engines": {
+    "node": ">=18 <=18.18.0"
+  },
+  "resolutions": {
+    "glob": "7.2.3",
+    "@expo/cli/glob": "7.2.3",
+    "@react-native/dev-middleware/glob": "7.2.3",
+    "@expo/webpack-config/glob": "7.2.3"
+  }
+}

@@ -4,11 +4,25 @@
     "slug": "axionet",
     "owner": "dman6969",
     "version": "1.0.0",
-    "sdkVersion": "49.0.0",
+    "orientation": "portrait",
+    "platforms": [
+      "android"
+    ],
+    "sdkVersion": "50.0.0",
     "extra": {
+      "expoClient": {
+        "owner": "dana6969",
+        "projectId": "e60340c9-58a4-4c15-ae31-1060cb3bc53c"
+      },
       "eas": {
         "projectId": "e60340c9-58a4-4c15-ae31-1060cb3bc53c"
       }
+    },
+    "android": {
+      "package": "com.dman6969.axionet"
     }
+  },
+  "android": {
+    "package": "com.dman6969.axionet"
   }
 }
