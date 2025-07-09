@@ -19,6 +19,9 @@
     },
     "android": {
       "package": "com.dman6969.axionet"
+    },
+    "ios": {
+      "bundleIdentifier": "com.dman6969.axionet"
     }
   },
   "android": {
