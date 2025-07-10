@@ -4,7 +4,7 @@ const fs = require('fs');
 const path = require('path');
 
 const memoryTrigger = require('../memory/events/memory_trigger.js');
-const autonomyLoop = require('./autonomy_loop.js');
+const runAutonomyLoop = require("./autonomy_loop.js");
 const { parse } = require('../intents/parser');
 
 const identityPath = path.resolve(__dirname, '../config/identity.json');
@@ -38,7 +38,7 @@ function log(msg) {
     const memoryResponse = await memoryTrigger.handle(parsedInput);
     log(`🌌 Memory Response → ${JSON.stringify(memoryResponse)}`);
 
-    const loopResult = await autonomyLoop.run(memoryResponse);
+    const loopResult = await runAutonomyLoop(memoryResponse);
     log(`🧬 Autonomy Loop Output → ${JSON.stringify(loopResult)}`);
 
     log(`✅ AGI Trigger Complete for ${identity.codename}`);
