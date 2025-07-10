@@ -1,0 +1,10 @@
+[
+  {
+    "trigger": "hello world",
+    "action": "logGreeting"
+  },
+  {
+    "trigger": "goodbye",
+    "action": "logFarewell"
+  }
+]
