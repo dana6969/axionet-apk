@@ -1,9 +1,0 @@
-{
-  "name": "axionet_phase2",
-  "version": "2.0.0",
-  "main": "bootstrap/axon_boot.js",
-  "dependencies": {
-    "express": "^4.18.2",
-    "ws": "^8.13.0"
-  }
-}
