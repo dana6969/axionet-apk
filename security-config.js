@@ -1,0 +1,1 @@
+REAL BUILD: Live biometric, AES encryption, tamper-detection logic

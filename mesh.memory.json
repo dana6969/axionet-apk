@@ -1,0 +1,17 @@
+[
+  {
+    "ts": "2025-07-10T03:24:16.580Z",
+    "cmd": "BLE",
+    "msg": "BLE signal test"
+  },
+  {
+    "ts": "2025-07-10T03:25:25.278Z",
+    "cmd": "BLE",
+    "msg": "BLE signal test"
+  },
+  {
+    "ts": "2025-07-10T03:27:21.277Z",
+    "cmd": "BLE",
+    "msg": "BLE signal test 2"
+  }
+]
