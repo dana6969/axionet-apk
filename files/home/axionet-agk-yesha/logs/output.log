@@ -1,0 +1,115 @@
+node:internal/modules/cjs/loader:1372
+  throw err;
+  ^
+
+Error: Cannot find module '/data/data/com.termux/files/home/axionet-agk-yesha/AGITriggers.js'
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1369:15)
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1025:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1030:22)
+    at Module._load (node:internal/modules/cjs/loader:1179:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:152:5)
+    at node:internal/main/run_main_module:33:47 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+
+Node.js v24.3.0
+[2025-07-10T13:51:42.617Z] AGI Trigger Start: Axionet AGI
+[2025-07-10T13:51:42.626Z] Error: parser.parse is not a function
+TypeError: parser.parse is not a function
+    at /data/data/com.termux/files/home/axionet-agk-yesha/axionet_phase2_symbolic_autonomy/core/AGITriggers.js:24:36
+    at Object.<anonymous> (/data/data/com.termux/files/home/axionet-agk-yesha/axionet_phase2_symbolic_autonomy/core/AGITriggers.js:38:3)
+    at Module._compile (node:internal/modules/cjs/loader:1692:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1824:10)
+    at Module.load (node:internal/modules/cjs/loader:1427:32)
+    at Module._load (node:internal/modules/cjs/loader:1250:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:152:5)
+    at node:internal/main/run_main_module:33:47
+[2025-07-10T13:54:00.015Z] AGI Trigger Start: Axionet AGI
+[2025-07-10T13:54:00.018Z] Error: parser.parse is not a function
+TypeError: parser.parse is not a function
+    at /data/data/com.termux/files/home/axionet-agk-yesha/axionet_phase2_symbolic_autonomy/core/AGITriggers.js:18:36
+    at Object.<anonymous> (/data/data/com.termux/files/home/axionet-agk-yesha/axionet_phase2_symbolic_autonomy/core/AGITriggers.js:29:3)
+    at Module._compile (node:internal/modules/cjs/loader:1692:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1824:10)
+    at Module.load (node:internal/modules/cjs/loader:1427:32)
+    at Module._load (node:internal/modules/cjs/loader:1250:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:152:5)
+    at node:internal/main/run_main_module:33:47
+✅ [YEHSA] Identity loaded: Yehsa (3.0.0-symbolic)
+[2025-07-10T14:12:14.163Z] 🧠 AGI Trigger Start: Yehsa | yehsa-symbolic-loop
+[2025-07-10T14:12:14.163Z] 🧠 AGI Trigger Start: Yehsa | yehsa-symbolic-loop
+[2025-07-10T14:12:14.171Z] 🔥 Error: parser.parse is not a function
+TypeError: parser.parse is not a function
+    at /data/data/com.termux/files/home/axionet-agk-yesha/axionet_phase2_symbolic_autonomy/core/AGITriggers.js:34:32
+    at Object.<anonymous> (/data/data/com.termux/files/home/axionet-agk-yesha/axionet_phase2_symbolic_autonomy/core/AGITriggers.js:48:3)
+    at Module._compile (node:internal/modules/cjs/loader:1692:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1824:10)
+    at Module.load (node:internal/modules/cjs/loader:1427:32)
+    at Module._load (node:internal/modules/cjs/loader:1250:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:152:5)
+    at node:internal/main/run_main_module:33:47
+[2025-07-10T14:12:14.171Z] 🔥 Error: parser.parse is not a function
+TypeError: parser.parse is not a function
+    at /data/data/com.termux/files/home/axionet-agk-yesha/axionet_phase2_symbolic_autonomy/core/AGITriggers.js:34:32
+    at Object.<anonymous> (/data/data/com.termux/files/home/axionet-agk-yesha/axionet_phase2_symbolic_autonomy/core/AGITriggers.js:48:3)
+    at Module._compile (node:internal/modules/cjs/loader:1692:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1824:10)
+    at Module.load (node:internal/modules/cjs/loader:1427:32)
+    at Module._load (node:internal/modules/cjs/loader:1250:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:152:5)
+    at node:internal/main/run_main_module:33:47
+✅ [YEHSA] Identity loaded: Yehsa (3.0.0-symbolic)
+[2025-07-10T14:14:10.337Z] 🧠 AGI Trigger Start: Yehsa | yehsa-symbolic-loop
+[2025-07-10T14:14:10.337Z] 🧠 AGI Trigger Start: Yehsa | yehsa-symbolic-loop
+[2025-07-10T14:14:10.339Z] 🧬 Parsed Input → {"intent":"unknown","timestamp":"2025-07-10T14:14:10.339Z"}
+[2025-07-10T14:14:10.339Z] 🧬 Parsed Input → {"intent":"unknown","timestamp":"2025-07-10T14:14:10.339Z"}
+[2025-07-10T14:14:10.340Z] 🔥 Error: memoryTrigger.handle is not a function
+TypeError: memoryTrigger.handle is not a function
+    at /data/data/com.termux/files/home/axionet-agk-yesha/axionet_phase2_symbolic_autonomy/core/AGITriggers.js:37:48
+    at Object.<anonymous> (/data/data/com.termux/files/home/axionet-agk-yesha/axionet_phase2_symbolic_autonomy/core/AGITriggers.js:48:3)
+    at Module._compile (node:internal/modules/cjs/loader:1692:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1824:10)
+    at Module.load (node:internal/modules/cjs/loader:1427:32)
+    at Module._load (node:internal/modules/cjs/loader:1250:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:152:5)
+    at node:internal/main/run_main_module:33:47
+[2025-07-10T14:14:10.340Z] 🔥 Error: memoryTrigger.handle is not a function
+TypeError: memoryTrigger.handle is not a function
+    at /data/data/com.termux/files/home/axionet-agk-yesha/axionet_phase2_symbolic_autonomy/core/AGITriggers.js:37:48
+    at Object.<anonymous> (/data/data/com.termux/files/home/axionet-agk-yesha/axionet_phase2_symbolic_autonomy/core/AGITriggers.js:48:3)
+    at Module._compile (node:internal/modules/cjs/loader:1692:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1824:10)
+    at Module.load (node:internal/modules/cjs/loader:1427:32)
+    at Module._load (node:internal/modules/cjs/loader:1250:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:152:5)
+    at node:internal/main/run_main_module:33:47
+✅ [YEHSA] Identity loaded: Yehsa (3.0.0-symbolic)
+[2025-07-10T14:41:36.132Z] 🧠 AGI Trigger Start: Yehsa | yehsa-symbolic-loop
+[2025-07-10T14:41:36.132Z] 🧠 AGI Trigger Start: Yehsa | yehsa-symbolic-loop
+[2025-07-10T14:41:36.134Z] 🧬 Parsed Input → {"intent":"unknown","timestamp":"2025-07-10T14:41:36.134Z"}
+[2025-07-10T14:41:36.134Z] 🧬 Parsed Input → {"intent":"unknown","timestamp":"2025-07-10T14:41:36.134Z"}
+[2025-07-10T14:41:36.136Z] 🔍 Memory Response → {"received":{"intent":"unknown","timestamp":"2025-07-10T14:41:36.134Z"},"memoryAccess":"simulated","result":"Aligned with intent: unknown","timestamp":"2025-07-10T14:41:36.134Z"}
+[2025-07-10T14:41:36.136Z] 🔍 Memory Response → {"received":{"intent":"unknown","timestamp":"2025-07-10T14:41:36.134Z"},"memoryAccess":"simulated","result":"Aligned with intent: unknown","timestamp":"2025-07-10T14:41:36.134Z"}
+[2025-07-10T14:41:36.137Z] 🔥 Error: autonomyLoop.run is not a function
+TypeError: autonomyLoop.run is not a function
+    at /data/data/com.termux/files/home/axionet-agk-yesha/axionet_phase2_symbolic_autonomy/core/AGITriggers.js:40:43
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[2025-07-10T14:41:36.137Z] 🔥 Error: autonomyLoop.run is not a function
+TypeError: autonomyLoop.run is not a function
+    at /data/data/com.termux/files/home/axionet-agk-yesha/axionet_phase2_symbolic_autonomy/core/AGITriggers.js:40:43
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
