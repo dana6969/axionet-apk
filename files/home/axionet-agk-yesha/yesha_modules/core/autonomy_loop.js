@@ -1,5 +1,1 @@
-module.exports = function run() {
-  setInterval(() => {
-    console.log("[Axionet] Thinking symbolically...");
-  }, 5000);
-};
+export function startAutonomyLoop() { console.log("Yehsa AGI: Autonomy loop active"); }
