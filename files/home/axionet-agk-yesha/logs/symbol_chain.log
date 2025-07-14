@@ -61,5 +61,29 @@
       "level": "high"
     },
     "context": "test"
+  },
+  {
+    "timestamp": "2025-07-14T23:38:17.353Z",
+    "symbols": [
+      "🔥",
+      "🧠"
+    ],
+    "reasoning": {
+      "action": "alert",
+      "level": "high"
+    },
+    "context": "emotional_check"
+  },
+  {
+    "timestamp": "2025-07-14T23:40:34.360Z",
+    "symbols": [
+      "🔥",
+      "🧠"
+    ],
+    "reasoning": {
+      "action": "alert",
+      "level": "high"
+    },
+    "context": "emotional_check"
   }
 ]
