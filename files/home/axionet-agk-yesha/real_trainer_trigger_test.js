@@ -1,1 +1,12 @@
-// Yehsa Trainer Trigger Test\nimport { trainSymbol } from './yesha_modules/core/trainers/symbolic_trainer.js';\nimport { trainMemory } from './yesha_modules/core/trainers/memory_trainer.js';\nimport { trainPattern } from './yesha_modules/core/trainers/pattern_trainer.js';\nimport { trainAGI } from './yesha_modules/core/trainers/AGITrainer.js';\n\nconst payload = { symbol: '⏳', pattern: 'loop', logic: 'recursive' };\nconsole.log('🔧 Testing with payload:', payload);\nconst res1 = trainSymbol(payload.symbol);\nconst res2 = trainMemory(payload);\nconst res3 = trainPattern(payload.pattern);\nconst res4 = trainAGI('Deep recursion event loop');\n\nconsole.log('✅ Symbol:', res1);\nconsole.log('✅ Memory:', res2);\nconsole.log('✅ Pattern:', res3);\nconsole.log('✅ AGI:', res4);
+// Yehsa Real Trainer Trigger
+import { runAutonomyLoop } from './yesha_modules/core/autonomy_loop.js';
+import fs from 'fs';
+
+console.log('⚙️ Launching real symbolic test...');
+const payload = { symbol: '♾️', logic: 'recursive' };
+
+const output = runAutonomyLoop(payload);
+console.log('🧠 Autonomy Output:', output);
+
+fs.appendFileSync('./yesha_modules/logs/output.log', JSON.stringify({ input: payload, output }, null, 2) + '\n');
+

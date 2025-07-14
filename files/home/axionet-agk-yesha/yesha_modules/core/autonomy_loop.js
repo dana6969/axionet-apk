@@ -1,1 +1,16 @@
-import fs from "fs"; import path from "path"; import { fileURLToPath } from "url"; import { resolveSymbol } from "./symbol_resolver.js"; const __filename = fileURLToPath(import.meta.url); const __dirname = path.dirname(__filename); const queuePath = path.join(__dirname, "../memory/symbolic_queue.json"); export async function startAutonomyLoop() { console.log("✅ Yehsa AGI: Autonomy loop ACTIVE – Real Symbol Resolution"); if (!fs.existsSync(queuePath)) { console.error("❌ Symbolic queue not found."); return; } const queueRaw = fs.readFileSync(queuePath, "utf-8"); let queue = []; try { queue = JSON.parse(queueRaw); } catch (err) { console.error("❌ Invalid symbolic queue JSON"); return; } for (const item of queue) { const symbol = item?.symbol; if (!symbol) continue; const response = resolveSymbol(symbol); console.log(`🧠 Symbol: ${symbol} ➜ 🧬 Response: ${response}`); } }
+import { trainSymbol } from './trainers/symbolic_trainer.js';
+import { trainMemory } from './trainers/memory_trainer.js';
+import { trainPattern } from './trainers/pattern_trainer.js';
+import { trainAGI } from './trainers/AGITrainer.js';
+import fs from 'fs';
+
+export function runAutonomyLoop(input) {
+  const sym = trainSymbol(input.symbol);
+  const mem = trainMemory(input.symbol);
+  const pat = trainPattern(input.symbol);
+  const agi = trainAGI(input.symbol);
+
+  const result = { timestamp: new Date().toISOString(), input, output: { sym, mem, pat, agi } };
+  fs.appendFileSync('./yesha_modules/logs/symbolic_output.log', JSON.stringify(result, null, 2) + '\n');
+  return result;
+}
