@@ -1,0 +1,1 @@
+import coreReasoner from "./core_reasoner.js"; export function logSymbolInteraction(symbols, context) { const result = coreReasoner(symbols, { context }); const timestamp = new Date().toISOString(); console.log(`[${timestamp}] Yehsa AGI Log | Symbols: ${symbols.join(", ")} | Context: ${context} | Reasoning: ${JSON.stringify(result)}`); }

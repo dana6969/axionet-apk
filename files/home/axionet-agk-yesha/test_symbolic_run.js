@@ -1,0 +1,1 @@
+import { updateState, getState } from "./yesha_modules/symbolic/state_tracker.js"; import { logSymbolInteraction } from "./yesha_modules/symbolic/logger.js"; updateState("mode", "test"); logSymbolInteraction(["🔥", "🧠"], getState("mode"));
