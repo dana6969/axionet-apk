@@ -20,3 +20,97 @@
     }
   }
 }
+{
+  "timestamp": "2025-07-14T18:40:42.935Z",
+  "input": {
+    "symbol": "🔁",
+    "logic": "recursive"
+  },
+  "output": {
+    "sym": {
+      "symbol": "🔁"
+    },
+    "mem": {
+      "memory": "🔁"
+    },
+    "pat": {
+      "pattern": "🔁"
+    },
+    "agi": {
+      "status": "learned",
+      "input": "🔁"
+    }
+  }
+}
+{
+  "timestamp": "2025-07-14T18:40:42.907Z",
+  "session": "vwtw1dzo",
+  "input": {
+    "symbol": "🔁",
+    "logic": "recursive"
+  },
+  "output": {
+    "timestamp": "2025-07-14T18:40:42.935Z",
+    "input": {
+      "symbol": "🔁",
+      "logic": "recursive"
+    },
+    "output": {
+      "sym": {
+        "symbol": "🔁"
+      },
+      "mem": {
+        "memory": "🔁"
+      },
+      "pat": {
+        "pattern": "🔁"
+      },
+      "agi": {
+        "status": "learned",
+        "input": "🔁"
+      }
+    }
+  }
+}
+{
+  "timestamp": "2025-07-14T18:43:34.457Z",
+  "session": "pt96a6h0",
+  "input": {
+    "symbol": "🔁",
+    "logic": "recursive"
+  },
+  "output": {
+    "loop": true,
+    "out": [
+      {
+        "symbol": {
+          "symbol": "🔁",
+          "logic": "recursive"
+        }
+      },
+      {
+        "memory": {
+          "symbol": "🔁",
+          "logic": "recursive"
+        }
+      },
+      {
+        "pattern": {
+          "symbol": "🔁",
+          "logic": "recursive"
+        }
+      },
+      {
+        "status": "learned",
+        "input": {
+          "symbol": "🔁",
+          "logic": "recursive"
+        }
+      },
+      {
+        "inferred": true,
+        "trace": "linked symbols and logic path"
+      }
+    ]
+  }
+}

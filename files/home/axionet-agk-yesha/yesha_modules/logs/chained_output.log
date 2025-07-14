@@ -1,0 +1,101 @@
+{
+  "timestamp": "2025-07-14T18:47:24.386Z",
+  "chained": [
+    {
+      "symbol": {
+        "symbol": "🧠",
+        "logic": "recursive"
+      }
+    },
+    {
+      "memory": {
+        "symbol": {
+          "symbol": "🧠",
+          "logic": "recursive"
+        }
+      }
+    },
+    {
+      "pattern": {
+        "memory": {
+          "symbol": {
+            "symbol": "🧠",
+            "logic": "recursive"
+          }
+        }
+      }
+    },
+    {
+      "status": "learned",
+      "input": {
+        "pattern": {
+          "memory": {
+            "symbol": {
+              "symbol": "🧠",
+              "logic": "recursive"
+            }
+          }
+        }
+      }
+    },
+    {
+      "inferred": true,
+      "trace": "linked symbols and logic path"
+    }
+  ]
+}
+{
+  "timestamp": "2025-07-14T18:49:01.414Z",
+  "chained": [
+    {
+      "symbol": {
+        "symbol": "🧠",
+        "logic": "recursive"
+      }
+    },
+    {
+      "memory": {
+        "symbol": {
+          "symbol": "🧠",
+          "logic": "recursive"
+        },
+        "logic": "recursive"
+      }
+    },
+    {
+      "pattern": {
+        "symbol": "🧠",
+        "logic": "recursive",
+        "memory": {
+          "symbol": {
+            "symbol": "🧠",
+            "logic": "recursive"
+          },
+          "logic": "recursive"
+        }
+      }
+    },
+    {
+      "status": "learned",
+      "input": {
+        "symbol": "🧠",
+        "logic": "recursive",
+        "pattern": {
+          "symbol": "🧠",
+          "logic": "recursive",
+          "memory": {
+            "symbol": {
+              "symbol": "🧠",
+              "logic": "recursive"
+            },
+            "logic": "recursive"
+          }
+        }
+      }
+    },
+    {
+      "inferred": true,
+      "trace": "linked symbols and logic path"
+    }
+  ]
+}
