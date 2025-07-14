@@ -11,3 +11,4 @@ node_modules/
 *.tmp
 __MACOSX/
 .DS_Store
+!logs/symbol_chain.log
