@@ -1,0 +1,1 @@
+module.exports = function symbolicPatternAnalyzer(data) { const patterns = {}; data.forEach(entry => { entry.symbols.forEach(sym => { patterns[sym] = (patterns[sym] || 0) + 1; }); }); return Object.entries(patterns).sort((a, b) => b[1] - a[1]); };

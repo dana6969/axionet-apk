@@ -1,0 +1,1 @@
+module.exports = function symbolicReflectionEngine(memory, intent) { const log = []; if (intent === "reflect") { log.push("Reflection initiated."); memory.forEach((m, i) => log.push(`🧠 Memory ${i + 1}: ${m}`)); log.push("Reflection complete."); } return log; };
