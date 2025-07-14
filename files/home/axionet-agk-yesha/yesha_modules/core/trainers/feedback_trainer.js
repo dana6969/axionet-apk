@@ -1,0 +1,1 @@
+export function trainFeedback(symbol, result) { console.log(`🔁 Feedback Trainer: Symbol "${symbol}" → Result: "${result}"`); return { updated: true, auditTrail: [symbol, result], feedbackScore: result.length }; }
