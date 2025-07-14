@@ -22,5 +22,44 @@
       "level": "high"
     },
     "context": "test"
+  },
+  {
+    "timestamp": "2025-07-14T23:21:24.882Z",
+    "symbols": [
+      "🔥",
+      "🧠"
+    ],
+    "reasoning": {
+      "action": "alert",
+      "level": "high"
+    },
+    "context": "test"
+  },
+  {
+    "timestamp": "2025-07-14T23:25:24.618Z",
+    "symbols": [
+      "🔥",
+      "🧠"
+    ],
+    "reasoning": {
+      "action": "alert",
+      "level": "high"
+    },
+    "context": "test",
+    "expansion": {
+      "prompt": "Initiate cognitive self-reflection protocol."
+    }
+  },
+  {
+    "timestamp": "2025-07-14T23:30:50.868Z",
+    "symbols": [
+      "🔥",
+      "🧠"
+    ],
+    "reasoning": {
+      "action": "alert",
+      "level": "high"
+    },
+    "context": "test"
   }
 ]
