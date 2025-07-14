@@ -1,1 +1,14 @@
-{"timestamp":"2025-07-14T22:58:30.035Z","symbols":["🔥","🧠"],"reasoning":{"action":"alert","level":"high"},"context":"test"}
+[
+  {
+    "timestamp": "2025-07-14T23:09:49.073Z",
+    "symbols": [
+      "🔥",
+      "🧠"
+    ],
+    "reasoning": {
+      "action": "alert",
+      "level": "high"
+    },
+    "context": "test"
+  }
+]
