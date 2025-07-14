@@ -1,0 +1,14 @@
+[
+  {
+    "timestamp": "2025-07-14T23:21:24.880Z",
+    "symbols": [
+      "🔥",
+      "🧠"
+    ],
+    "reasoning": {
+      "action": "alert",
+      "level": "high"
+    },
+    "context": "test"
+  }
+]
