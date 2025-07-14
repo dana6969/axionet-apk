@@ -3,3 +3,5 @@ core/** linguist-generated=false
 memory/** linguist-generated=false
 logs/** linguist-generated=false
 trainers/** linguist-generated=false
+yesha_modules/core/symbolic_dispatcher.js linguist-generated=false
+yesha_modules/core/trainers/multi_path_resolver.js linguist-generated=false
