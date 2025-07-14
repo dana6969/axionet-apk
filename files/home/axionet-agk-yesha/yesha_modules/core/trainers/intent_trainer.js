@@ -1,1 +1,1 @@
-// Intent Trainer\nexport function trainIntent(intent) { console.log('🎯 Training intent:', intent); }
+export function trainIntent(input) { console.log('🧠 Training intent:', input); return { trained: true, input }; }

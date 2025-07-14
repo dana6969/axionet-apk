@@ -1,1 +1,1 @@
-// Pattern Trainer\nexport function trainPattern(pattern) { console.log('🔁 Training pattern:', pattern); }
+export function trainPattern(pattern) { console.log('🔁 Training pattern:', pattern); return { pattern }; }

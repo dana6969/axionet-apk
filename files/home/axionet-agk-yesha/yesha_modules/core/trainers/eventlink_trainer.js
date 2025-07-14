@@ -1,1 +1,1 @@
-export function trainEventLink(eventChain) { console.log("🔗 EventLink Trainer: Linking", eventChain); return { chainLength: eventChain.length, integrity: "✓" }; }
+export function trainEventLink(info) { console.log('🔗 Training event link:', info); return { linked: true }; }

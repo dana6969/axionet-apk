@@ -1,1 +1,1 @@
-export function trainAGICore(event) { const feedback = `[AGI Trainer] Reflecting on: ${event.type} | Data: ${JSON.stringify(event.data)}`; console.log(feedback); return { result: "reflected", insights: [event.type], memoryFlag: true }; }
+export function trainAGI(input) { console.log('🧬 Training AGI:', input); return { status: 'learned', input }; }

@@ -1,1 +1,27 @@
-export const symbolMap = { "awaken": "initialize_protocol", "observe": "engage_sensors", "respond": "begin_response_chain", "remember": "log_memory_event", "evolve": "trigger_learning_cycle" };
+export const symbolMap = {
+  greet: "sayHello",
+  warn: "alertUser",
+  dream: "initiateDreamLogic",
+  memory_request: "fetchMemoryEntry",
+  memory_store: "storeMemoryEntry",
+  learn: "addToLearningQueue",
+  reflect: "performSelfReflection",
+  plan: "generateActionPlan",
+  respond: "dispatchResponse",
+  question: "handleUserQuestion",
+  loop_start: "startAutonomyLoop",
+  loop_end: "terminateLoop",
+  unknown: "handleUnknownIntent",
+  evolve: "triggerEvolution",
+  error_detected: "logAndSelfCorrect",
+  symbolic_trigger: "runSymbolicTrigger",
+  ask: "queryAGI",
+  analyze: "runAnalysisEngine",
+  route: "routeSymbol",
+  listen: "engageListeningMode",
+  initiate_sync: "synchronizeState",
+  reinforce: "reinforceMemory",
+  inject: "injectCodeBlock",
+  patch: "applyInternalPatch",
+  guard: "executeSecurityCheck"
+};
