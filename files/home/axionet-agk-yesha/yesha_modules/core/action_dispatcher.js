@@ -1,1 +1,6 @@
-export function dispatchAction(reasoning) { if (reasoning.action === "alert") console.warn(`[Yehsa Alert] Level: ${reasoning.level}`); else if (reasoning.action === "reflect") console.log("[Yehsa Reflecting] Deep symbolic analysis triggered."); else if (reasoning.action === "expand") console.log(`[Yehsa Expanding] Exploring topic: ${reasoning.topic}`); else console.log("[Yehsa Action] Processing symbols..."); }
+export function dispatchAction(result) {
+  if (result.action === "alert") console.log(`[Yehsa Alert] Level: ${result.level}`);
+  else if (result.action === "reflect") console.log(`[Yehsa Reflect] Depth: ${result.depth}`);
+  else if (result.action === "expand") console.log(`[Yehsa Expand] Topic: ${result.topic}`);
+  else console.log(`[Yehsa Process] Symbols: ${JSON.stringify(result.symbols)}`);
+}
