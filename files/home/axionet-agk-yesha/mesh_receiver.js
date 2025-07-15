@@ -11,3 +11,4 @@ export function receiveMeshData(inputText) {
     console.log("[Mesh Received]", inputText);
   }
 }
+import { logToLearningQueue } from './symbolic_memory/learning_queue_handler.js'; logToLearningQueue({ symbol: 'fear', context: 'phase4:input_text:fear of intelligence beyond light', timestamp: Date.now() });
