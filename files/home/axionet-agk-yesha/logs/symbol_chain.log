@@ -97,5 +97,33 @@
       "level": "high"
     },
     "context": "emotional_check"
+  },
+  {
+    "timestamp": "2025-07-15T00:17:29.779Z",
+    "symbols": [
+      "😱",
+      "✨"
+    ],
+    "reasoning": {
+      "action": "process",
+      "symbols": [
+        "😱",
+        "✨"
+      ]
+    },
+    "context": "text_to_symbol"
+  },
+  {
+    "timestamp": "2025-07-15T00:22:28.111Z",
+    "symbols": [
+      "😱",
+      "💀",
+      "🔥"
+    ],
+    "reasoning": {
+      "action": "alert",
+      "level": "high"
+    },
+    "context": "classified_intent:emotion"
   }
 ]
