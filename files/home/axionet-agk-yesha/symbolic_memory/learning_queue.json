@@ -163,5 +163,20 @@
     "symbol": "mirror",
     "context": "phase4:input_text:mirror reality fractal",
     "timestamp": 1752602595
+  },
+  {
+    "symbol": "unlock",
+    "context": "phase4:input_text:mirror unlock gatekeeper",
+    "timestamp": 1752607398
+  },
+  {
+    "symbol": "fear",
+    "context": "phase4:input_text:fear echo silence",
+    "timestamp": 1752607398
+  },
+  {
+    "symbol": "mirror",
+    "context": "phase4:input_text:hope breach mirror fractal",
+    "timestamp": 1752607398
   }
 ]
