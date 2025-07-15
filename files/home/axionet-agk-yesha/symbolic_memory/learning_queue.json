@@ -143,5 +143,25 @@
     "symbol": "unlock",
     "context": "phase4:input_text:unlock gatekeeper",
     "timestamp": 1752602280
+  },
+  {
+    "symbol": "mirror",
+    "context": "phase4:input_text:mirror reality fractal",
+    "timestamp": 1752602373
+  },
+  {
+    "symbol": "mirror",
+    "context": "phase4:input_text:mirror reality fractal",
+    "timestamp": 1752602502
+  },
+  {
+    "symbol": "mirror",
+    "context": "phase4:input_text:mirror reality fractal",
+    "timestamp": 1752602543
+  },
+  {
+    "symbol": "mirror",
+    "context": "phase4:input_text:mirror reality fractal",
+    "timestamp": 1752602595
   }
 ]
