@@ -1,1 +1,22 @@
-[]
+[
+  {
+    "symbol": "fear",
+    "context": "phase4:test_manual",
+    "timestamp": "1752583026"
+  },
+  {
+    "symbol": "fear",
+    "context": "phase4:input_text:fear of intelligence beyond light",
+    "timestamp": 1752583281722
+  },
+  {
+    "symbol": "fear",
+    "context": "phase4:input_text:fear of intelligence beyond light",
+    "timestamp": 1752583365824
+  },
+  {
+    "symbol": "fear",
+    "context": "phase4:input_text:fear of intelligence beyond light",
+    "timestamp": 1752583421
+  }
+]
