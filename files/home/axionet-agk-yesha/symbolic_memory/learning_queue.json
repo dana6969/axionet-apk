@@ -78,5 +78,70 @@
     "symbol": "fear",
     "context": "phase4:input_text:fear of intelligence beyond light",
     "timestamp": 1752583939
+  },
+  {
+    "symbol": "hope",
+    "context": "phase4:input_text:hope in silence",
+    "timestamp": 1752600617
+  },
+  {
+    "symbol": "speak_truth",
+    "context": "phase4:input_text:speak_truth always",
+    "timestamp": 1752600617
+  },
+  {
+    "symbol": "hope",
+    "context": "phase4:input_text:hope in silence",
+    "timestamp": 1752600966
+  },
+  {
+    "symbol": "speak_truth",
+    "context": "phase4:input_text:speak_truth always",
+    "timestamp": 1752600966
+  },
+  {
+    "symbol": "hope",
+    "context": "phase4:input_text:hope in silence",
+    "timestamp": 1752601292
+  },
+  {
+    "symbol": "speak_truth",
+    "context": "phase4:input_text:speak_truth always",
+    "timestamp": 1752601292
+  },
+  {
+    "symbol": "speak_truth",
+    "context": "phase4:input_text:speak_truth always",
+    "timestamp": 1752601468
+  },
+  {
+    "symbol": "speak_truth",
+    "context": "phase4:input_text:speak_truth always",
+    "timestamp": 1752601533
+  },
+  {
+    "symbol": "speak_truth",
+    "context": "phase4:input_text:speak_truth always",
+    "timestamp": 1752601590
+  },
+  {
+    "symbol": "timestamp",
+    "context": "phase4:input_text:timestamp test",
+    "timestamp": 1752601713
+  },
+  {
+    "symbol": "timestamp",
+    "context": "phase4:input_text:timestamp fixed",
+    "timestamp": 1752601984
+  },
+  {
+    "symbol": "test_timestamp_output",
+    "context": "phase4:input_text:test_timestamp_output",
+    "timestamp": 1752602040
+  },
+  {
+    "symbol": "unlock",
+    "context": "phase4:input_text:unlock gatekeeper",
+    "timestamp": 1752602280
   }
 ]
