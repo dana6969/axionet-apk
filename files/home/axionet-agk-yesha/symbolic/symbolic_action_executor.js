@@ -1,17 +1,1 @@
-export async function execute(symbol, context) {
-  const ts = Math.floor(Date.now() / 1000);
-  console.log(`[${ts}] [Executor] Symbol triggered: ${symbol}`);
-  switch(symbol) {
-    case "mirror":
-      console.log(`[${ts}] [Execute] Activating mirror protocol with context: "${context}"`);
-      break;
-    case "unlock":
-      import("./symbolic_protocols/unlock_protocol.js").then(m => m.run(context));
-      break;
-    case "fear":
-      import("./symbolic_protocols/fear_protocol.js").then(m => m.run(context));
-      break;
-    default:
-      console.log(`[${ts}] [Execute] No defined protocol for "${symbol}"`);
-  }
-}
+import fs from "fs"; import { exec } from "child_process"; const symbols = JSON.parse(fs.readFileSync("./symbolic_memory/learning_queue.json", "utf-8")); const actions = { unlock: () => exec("termux-vibrate -d 300 && echo 🔓 Protocol UNLOCKED"), fear: () => exec("termux-notification --title '⚠️ System Alert' --content 'Unstable Symbol: FEAR'"), mirror: () => exec("termux-toast '🪞 Reflecting reality symbol... Mirror active.'"), default: (s) => exec(`termux-toast '⚙️ No predefined action for: ${s}'`) }; export async function executeActions() { const recent = symbols.slice(-5); for (const entry of recent) { const { symbol } = entry; console.log(`[EXECUTOR] Triggered: ${symbol}`); (actions[symbol] || actions.default)(symbol); } }
