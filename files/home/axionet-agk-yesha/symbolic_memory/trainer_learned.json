@@ -1,5 +1,3 @@
 {
-  "dreamgate": {
-    "response": "open_cosmic_portal"
-  }
+  "dreamgate": "echo"
 }
