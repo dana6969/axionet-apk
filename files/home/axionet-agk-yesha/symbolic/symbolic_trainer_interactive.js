@@ -1,4 +1,5 @@
 import fs from "fs";
+import { executeSymbol } from "./symbolic_action_executor.js";
 import readline from "readline";
 import { getDefinitions } from "./symbolic_dictionary.js";
 
@@ -16,6 +17,8 @@ async function promptSymbol(index = 0) {
     learned[symbol] = response;
     fs.writeFileSync(learnedPath, JSON.stringify(learned, null, 2));
     fs.appendFileSync("./symbolic_memory/learn_log.json", `{"symbol":"${symbol}","defs":${JSON.stringify(defs)}}\n`);
+
+executeSymbol(symbol);
     await promptSymbol(index + 1);
   });
 }
