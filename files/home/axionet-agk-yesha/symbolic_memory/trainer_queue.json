@@ -1,6 +1,18 @@
 [
   {
-    "symbol": "dreamgate",
-    "context": "phase5:test-symbolic-class"
+    "symbol": "coding_core",
+    "context": "books:Clean Code, SICP, JavaScript: The Good Parts"
+  },
+  {
+    "symbol": "design_mind",
+    "context": "books:The Non-Designer’s Design Book, Thinking with Type, Designing Interfaces"
+  },
+  {
+    "symbol": "psy_key",
+    "context": "books:Thinking Fast and Slow, Man and His Symbols, Psychology of Everyday Things"
+  },
+  {
+    "symbol": "quantum_mind",
+    "context": "books:QED, Quantum Enigma, Susskind’s Theoretical Minimum, Shankar’s Principles of QM"
   }
 ]
