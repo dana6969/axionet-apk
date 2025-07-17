@@ -6,3 +6,12 @@
 {"symbol":"light","action":"activate_illumination"}
 {"symbol":"light","action":"activate_illumination"}
 {"symbol":"light","action":"activate_illumination","timestamp":1752714118256}
+{"symbol":"fingle-fangle","action":"fallback now?"}
+{"symbol":{"symbol":"fingle-fangle","context":"fallback now?"},"action":"echo_symbol_response","timestamp":1752772039529}
+{"symbol":{"symbol":"fingle-fangle","context":"fallback now?"},"action":"echo_symbol_response","timestamp":1752772095205}
+{"symbol":{"symbol":"fingle-fangle","context":"fallback now?"},"action":"echo_symbol_response","timestamp":1752772126924}
+{"symbol":{"symbol":"fingle-fangle","context":"fallback now?"},"action":"echo_symbol_response","timestamp":1752772169378}
+{"symbol":{"symbol":"fingle-fangle","context":"fallback now?"},"action":"echo_symbol_response","timestamp":1752774298312}
+{"symbol":{"symbol":"fingle-fangle","context":"fallback now?"},"action":"echo_symbol_response","timestamp":1752774343473}
+{"symbol":{"symbol":"fingle-fangle","context":"fallback now?"},"action":"echo_symbol_response","timestamp":1752774383810}
+{"symbol":{"symbol":"fingle-fangle","context":"fallback now?"},"action":"echo_symbol_response","timestamp":1752774423386}
