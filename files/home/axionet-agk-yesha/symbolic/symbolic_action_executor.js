@@ -1,23 +1,21 @@
 import { getDefinitions } from "./symbolic_dictionary.js";
-import { sendMeshAction } from "./mesh_dispatch.js";
 import fs from "fs";
+import { sendMeshAction } from "./mesh_dispatch.js";
+import { biometricConfirm } from "./biometric_lock.js";
+
+const actionMap = {
+  "light": "activate_illumination",
+  "unlock": "access_core_memory",
+  "dreamgate": "open_cosmic_portal"
+};
 
 export function executeSymbol(symbol) {
-  const defs = getDefinitions(symbol);
-  const lowerSymbol = symbol.toLowerCase();
-  const lowerDefs = defs.map(d => d.toLowerCase());
-
-  let action = null;
-  if (lowerSymbol.includes("light") || lowerDefs.some(d => d.includes("illumination"))) action = "activate_illumination";
-  else if (lowerSymbol.includes("unlock") || lowerDefs.some(d => d.includes("unlock") || d.includes("open"))) action = "open_seal";
-  else if (lowerSymbol.includes("dreamgate")) action = "open_cosmic_portal";
-
-  if (action) {
+  (async () => {
+    const action = actionMap[symbol];
+    if (!action) return console.log(`[🤔 No mapped action for] ${symbol}`);
+    if (["unlock", "erase", "shutdown"].includes(symbol) && !(await biometricConfirm(symbol))) return;
     console.log(`[⚡ Executing] ${symbol} → ${action}()`);
-    fs.appendFileSync("symbolic_memory/executed_log.json", `{"symbol":"${symbol}","action":"${action}"}\n`);
-sendMeshAction(symbol, action);
-
-  } else {
-    console.log(`[🤔 No mapped action for] ${symbol}`);
-  }
+    fs.appendFileSync("symbolic_memory/executed_log.json", JSON.stringify({ symbol, action, ts: Date.now() }) + ",\n");
+    sendMeshAction(symbol, action);
+  })();
 }
